@@ -1,0 +1,63 @@
+2016-05-12 13:20:50 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'The requested page does not have table.' in D:\web\task\controllers\VerkaufController.php:38
+Stack trace:
+#0 [internal function]: app\controllers\VerkaufController->actionIndex()
+#1 D:\web\task\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#2 D:\web\task\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 D:\web\task\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#4 D:\web\task\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('verkauf/index', Array)
+#5 D:\web\task\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\web\task\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2016-05-12 13:20:50 [::1][-][-][info][application] $_GET = [
+    'r' => 'verkauf/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '96b76996e39481798016abc7a39f97aeaa2ae960bd9f0f35dd150dfb65aa86bca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"qn0it01-wF2a3HAE4yAV4Ia0yWYdOEcP\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:1536'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=96b76996e39481798016abc7a39f97aeaa2ae960bd9f0f35dd150dfb65aa86bca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22qn0it01-wF2a3HAE4yAV4Ia0yWYdOEcP%22%3B%7D'
+    'PATH' => 'D:\\app\\Oracle\\product\\12.1.0\\dbhome_1\\bin;D:\\app_or\\natkor\\product\\12.1.0\\dbhome_2\\bin;D:\\app\\natkoracle\\product\\12.1.0\\dbhome_1\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\csvn\\bin\\;C:\\csvn\\Python25\\;C:\\Git\\bin;C:\\Git\\libexec\\git-core;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\110\\DTS\\Binn\\;C:\\Program Files\\OpenVPN\\bin;C:\\xampp\\instantclient_11_2;C:\\xampp\\php;C:\\xampp\\php\\ext;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\bin;C:\\Program Files\\VisualSVN Server\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\comp\\AppData\\Roaming\\npm\\node_modules\\express\\Readme.md;C:\\mongodb\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/0.9.8y PHP/5.4.16 Server at localhost Port 1536</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/0.9.8y PHP/5.4.16'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '1536'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/web/task/web/index.php'
+    'REMOTE_PORT' => '7155'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=verkauf%2Findex'
+    'REQUEST_URI' => '/task/web/index.php?r=verkauf%2Findex'
+    'SCRIPT_NAME' => '/task/web/index.php'
+    'PHP_SELF' => '/task/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1463044850.175
+    'REQUEST_TIME' => 1463044850
+]
