@@ -1,6 +1,6 @@
-PHP script freelancer
+PHP Crud
 ===========================
-task based on PHP Yii 2 framework 
+CRUD    based on PHP Yii 2 framework 
 
 
 INSTALLATION
